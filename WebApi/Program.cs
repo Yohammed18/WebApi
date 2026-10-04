@@ -98,4 +98,5 @@ app.MapDelete("/games/{id}", (int id) =>
         return Results.Content("Game deleted successfully");
 });
 
+
 app.Run();
