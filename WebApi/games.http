@@ -1,0 +1,42 @@
+@RootHost = http://localhost:5158
+
+###
+GET {{RootHost}}
+Content-Type: text/plain
+
+###
+GET {{RootHost}}/games
+Content-Type: application/json
+
+###
+GET {{RootHost}}/games/1
+Content-Type: application/json
+
+###
+POST {{RootHost}}/games
+Content-Type: application/json
+
+{
+  "name": "New Game",
+  "description": "Description of the new game",
+  "genre": "Genre of the new game",
+  "price": 49.99,
+  "releaseDate": "2024-01-01T00:00:00"
+}   
+
+
+###
+PUT {{RootHost}}/games/1
+Content-Type: application/json
+
+{
+  "name": "Updated Game",
+  "description": "Updated description of the game",
+  "genre": "Updated genre of the game",
+  "price": 59.99,
+  "releaseDate": "2024-01-01T00:00:00"
+}   
+
+###
+DELETE {{RootHost}}/games/1
+Content-Type: application/json
