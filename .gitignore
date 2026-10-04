@@ -483,6 +483,4 @@ $RECYCLE.BIN/
 
 # Local settings with secrets
 **/appsettings.Development.json
-
-# Local settings with secrets
-**/appsettings.Development.json
+**/appsettings.json

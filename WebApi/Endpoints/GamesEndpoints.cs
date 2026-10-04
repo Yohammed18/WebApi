@@ -14,6 +14,11 @@ public static class GamesEndpoints
 
     const string EndpointName = "GetGameById"; 
 
+
+    /// <summary>
+    /// Maps the game endpoints for the web application.
+    /// </summary>
+    /// <param name="app">The web application instance.</param>
     public static void MapGamesEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("/games");
