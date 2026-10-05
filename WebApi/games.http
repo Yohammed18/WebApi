@@ -19,9 +19,9 @@ Content-Type: application/json
 {
   "name": "New Game",
   "description": "Description of the new game",
-  "genre": "Genre of the new game",
+  "genreId": 1,
   "price": 49.99,
-  "releaseDate": "2024-01-01T00:00:00"
+  "releaseDate": "2023-06-02"
 }   
 
 
@@ -32,7 +32,7 @@ Content-Type: application/json
 {
   "name": "Updated Game",
   "description": "Updated description of the game",
-  "genre": "Updated genre of the game",
+  "genreId": 2,
   "price": 59.99,
   "releaseDate": "2024-01-01T00:00:00"
 }   

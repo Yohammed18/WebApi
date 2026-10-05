@@ -1,7 +1,8 @@
 namespace WebApi.Dtos;
 
-public record CreateGameDto
+public record GameDetailsDto
 (
+    int Id,
     string Name,
     string Description,
     int GenreId,
